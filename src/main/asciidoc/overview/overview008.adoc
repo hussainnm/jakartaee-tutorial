@@ -68,10 +68,10 @@ include the following:
 
 The Jakarta EE 9 platform requires Servlet 5.0.
 
-=== Jakarta Faces Technology
+=== Jakarta Server Faces Technology
 
-Jakarta Faces technology is a user interface framework for building web
-applications. The main components of Jakarta Faces technology are as
+Jakarta Server Faces technology is a user interface framework for building web
+applications. The main components of Jakarta Server Faces technology are as
 follows:
 
 * A GUI component framework.
@@ -95,7 +95,7 @@ The following features support the GUI components:
 All this functionality is available using standard Java APIs and
 XML-based configuration files.
 
-In the Jakarta EE 8 platform, new features of Jakarta Faces technology
+In the Jakarta EE 8 platform, new features of Jakarta Server Faces technology
 include the following:
 
 * Direct support for WebSockets via the new `<f:websocket>` tag
@@ -105,7 +105,7 @@ include the following:
 * Enhanced component search expression
 framework
 
-The Jakarta EE 9 platform requires Jakarta Faces 3.0 and Jakarta
+The Jakarta EE 9 platform requires Jakarta Server Faces 3.0 and Jakarta
 Expression Language 4.0.
 
 === Jakarta Server Pages Technology
@@ -210,7 +210,7 @@ Jakarta Managed Beans, lightweight container-managed objects (POJOs)
 with minimal requirements, support a small set of basic services, such
 as resource injection, lifecycle callbacks, and interceptors. Managed
 Beans represent a generalization of the managed beans specified by
-Jakarta Faces technology and can be used anywhere in a Jakarta EE
+Jakarta Server Faces technology and can be used anywhere in a Jakarta EE
 application, not just in web modules.
 
 The Jakarta Managed Beans specification is part of the Jakarta EE 9
@@ -221,7 +221,7 @@ Managed Beans 2.0.
 
 Jakarta Contexts and Dependency Injection (CDI) defines a set of
 contextual services, provided by Jakarta EE containers, that make it
-easy for developers to use enterprise beans along with Jakarta Faces
+easy for developers to use enterprise beans along with Jakarta Server Faces
 technology in web applications. Designed for use with stateful objects,
 CDI also has many broader uses, allowing developers a great deal of
 flexibility to integrate different kinds of components in a loosely

@@ -28,7 +28,7 @@ following:
 details)
 
 * New features for Jakarta Server Faces components (see
-<<jakarta-faces-technology>> for details)
+<<jakarta-server-faces-technology>> for details)
 
 * New Contexts and Dependency Injection features (see
 <<jakarta-contexts-and-dependency-injection>> for details)
